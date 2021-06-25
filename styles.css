@@ -1,0 +1,89 @@
+.colorred{
+    background-color: red;
+}
+
+#textcolor{
+    color: aquamarine;
+    padding-left: 50px;
+}
+
+h1{
+    color: black;
+    text-emphasis-color: white;
+    font-family: Helvetica;
+}
+
+h2{
+    color: white;
+    text-emphasis-color: white;
+    font-family: Helvetica;
+}
+
+p{
+    text-align: center;
+    color: white;
+    text-emphasis-color: white;
+    font-family: Helvetica;
+    margin: auto;
+}
+.box{
+    margin: auto;
+    align-self: center;
+    width: 800px;
+}
+centerbar{
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+  }
+
+
+
+
+  .bg1 {
+    /* The image used */
+    background-image: url("cropped.jpg");
+  
+    /* Full height */
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .bg2 {
+    /* The image used */
+    background-image: url("yuru.jpg");
+  
+    /* Full height */
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .parallax {
+    perspective: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .parallax__layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .parallax__layer--base {
+    transform: translateZ(1);
+  }
+  .parallax__layer--back {
+    transform: translateZ(-1px) scale(2);
+  }
